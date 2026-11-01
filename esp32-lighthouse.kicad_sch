@@ -5689,7 +5689,7 @@
 	)
 	(global_label "DISP1EN"
 		(shape output)
-		(at 182.88 52.07 180)
+		(at 182.88 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5699,7 +5699,7 @@
 		)
 		(uuid "5448c6de-22fc-42dc-8427-8d6191288f9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.8515 52.07 0)
+			(at 171.8515 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5785,7 +5785,7 @@
 	)
 	(global_label "DISP2EN"
 		(shape output)
-		(at 182.88 54.61 180)
+		(at 179.07 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5795,7 +5795,7 @@
 		)
 		(uuid "6f71bc74-4825-4518-a4be-99c5b2125c35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.8515 54.61 0)
+			(at 168.0415 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5953,7 +5953,7 @@
 	)
 	(global_label "DISP2DATA"
 		(shape output)
-		(at 182.88 59.69 180)
+		(at 173.99 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5963,7 +5963,7 @@
 		)
 		(uuid "dfc253c8-6676-45d1-9c8d-3b6ea559c3c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.9162 59.69 0)
+			(at 161.0262 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8743,6 +8743,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Auxiliary_Items:Mounting_Screw")
+		(at 96.52 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7834a502-2519-48ee-be02-3040d9b3d334")
+		(property "Reference" "H6"
+			(at 96.52 83.566 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mounting_Screw"
+			(at 96.52 91.186 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lighthouse:M3Hole"
+			(at 96.52 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting screw"
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "esp32-lighthouse"
+				(path "/6b04c3eb-5abe-41d1-b933-db143c0122ab"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 59.69 68.58 90)
 		(unit 1)
@@ -10645,6 +10721,82 @@
 			(project "esp32-lighthouse"
 				(path "/6b04c3eb-5abe-41d1-b933-db143c0122ab"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Auxiliary_Items:Mounting_Screw")
+		(at 91.44 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c34369b8-3c62-4910-bac5-c881531acfb9")
+		(property "Reference" "H5"
+			(at 91.44 83.566 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mounting_Screw"
+			(at 91.44 91.186 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lighthouse:M3Hole"
+			(at 91.44 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting screw"
+			(at 91.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "esp32-lighthouse"
+				(path "/6b04c3eb-5abe-41d1-b933-db143c0122ab"
+					(reference "H5")
 					(unit 1)
 				)
 			)
