@@ -253,7 +253,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "lighthouse"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -430,7 +432,7 @@
         "uuid": "6b04c3eb-5abe-41d1-b933-db143c0122ab"
       }
     ],
-    "used_designators": "U2-4",
+    "used_designators": "IC1-2,U2-4",
     "variants": []
   },
   "sheets": [
