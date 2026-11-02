@@ -5785,7 +5785,7 @@
 	)
 	(global_label "DISP2EN"
 		(shape output)
-		(at 179.07 67.31 180)
+		(at 182.88 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5795,7 +5795,7 @@
 		)
 		(uuid "6f71bc74-4825-4518-a4be-99c5b2125c35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.0415 67.31 0)
+			(at 171.8515 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5953,7 +5953,7 @@
 	)
 	(global_label "DISP2DATA"
 		(shape output)
-		(at 173.99 76.2 180)
+		(at 182.88 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5963,7 +5963,7 @@
 		)
 		(uuid "dfc253c8-6676-45d1-9c8d-3b6ea559c3c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.0262 76.2 0)
+			(at 169.9162 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
